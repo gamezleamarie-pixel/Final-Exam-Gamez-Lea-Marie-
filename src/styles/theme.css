@@ -1,0 +1,33 @@
+:root {
+  --beige: #efe6dc;
+  --ivory: #f8f4ef;
+  --taupe: #a89982;
+  --taupe-dark: #7d6f5b;
+  --accent: #b38b6d;
+}
+
+body {
+  background-color: var(--ivory);
+  color: var(--taupe-dark);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+}
+
+.navbar {
+  background: linear-gradient(90deg, var(--taupe), var(--accent));
+}
+
+.btn-primary {
+  background-color: var(--taupe-dark);
+  border-color: var(--taupe-dark);
+}
+
+.btn-outline-primary {
+  color: var(--taupe-dark);
+  border-color: var(--taupe-dark);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--taupe-dark);
+  color: var(--ivory);
+}

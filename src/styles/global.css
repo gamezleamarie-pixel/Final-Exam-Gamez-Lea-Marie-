@@ -1,0 +1,10 @@
+body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.card { border-radius: 10px; background: var(--card); }
+input, select, textarea { border-radius: 6px; }
+
+:root {
+  --taupe: #b38b6d;
+  --taupe-dark: #8b5e3c;
+  --ivory: #f8f7f3;
+  --ivory-light: #fdfaf6;
+}
